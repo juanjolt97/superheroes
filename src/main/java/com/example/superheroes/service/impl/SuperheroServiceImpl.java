@@ -4,7 +4,6 @@ import com.example.superheroes.annotation.ExecutionTime;
 import com.example.superheroes.dao.SuperheroRepository;
 import com.example.superheroes.model.Superhero;
 import com.example.superheroes.service.SuperheroService;
-import io.swagger.annotations.*;
 import lombok.AllArgsConstructor;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
@@ -18,7 +17,6 @@ import java.util.Optional;
  */
 @Service
 @AllArgsConstructor
-@Api(value = "Superhero Service")
 public class SuperheroServiceImpl implements SuperheroService {
 
 
